@@ -1,2 +1,2 @@
 # Udemy
-Deep Learning With Python!
+Deep Learning With Python.
