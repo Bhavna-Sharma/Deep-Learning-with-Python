@@ -8,3 +8,4 @@ the operators are +, -, * and / work just like in most other languages (for exam
  can be utilized for its grouping all together.
  The first thing that you’ll need to do is to import the tkinter package. 
  The tkinter package can be used to create a Graphical User Interface (GUI) in Python.
+The steps play important role in this.
