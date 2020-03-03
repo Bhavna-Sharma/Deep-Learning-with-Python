@@ -8,4 +8,35 @@ the operators are +, -, * and / work just like in most other languages (for exam
  can be utilized for its grouping all together.
  The first thing that you’ll need to do is to import the tkinter package. 
  The tkinter package can be used to create a Graphical User Interface (GUI) in Python.
-The steps play important role in this.
+
+For Calculator:
+
+operation = input('''
+Please type in the math operation you would like to complete:
++ for addition
+- for subtraction
+* for multiplication
+/ for division
+''')
+
+n_1 = int(input('Enter your first number: '))
+n_2 = int(input('Enter your second number: '))
+
+if operation == '+':                // for addition
+print('{} + {} = '.format(n_1, n_2))
+print(n_1 + n_2)
+
+elif operation == '-':            //for subtraction
+print('{} - {} = '.format(n_1, n_2))
+print(n_1 - n_2)
+
+elif operation == '*':          //for Multiplication
+print('{} * {} = '.format(n_1, n_2))
+print(n_1 * n_2)
+
+elif operation == '/':        //for Division
+print('{} / {} = '.format(n_1, n_2))
+print(n_1 / n_2)
+
+else:
+    print('Use the given operators please :).')
