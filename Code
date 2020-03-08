@@ -1,3 +1,21 @@
+Program for adding two binary numbers
 
-The code I learnt is:
-The easiet one is
+In the following program, we are using two built-in functions int() and bin().
+
+The int() function converts the given string into an integer number considering the provided base value, in the following example we are converting the string(which is a binary value) into an integer number so we are passing the base value as 2 (binary numbers have base 2, decimals have base value 10).
+
+Once the strings are converted into an integer values then we are adding them and the result is converted back to binary number using the bin() function.
+
+
+# decimal value 1
+num1 = '00001'
+# decimal value 17
+num2 = '10001'
+
+# sum - decimal value 18
+# binary value 10010
+sum = bin(int(num1,2) + int(num2,2))
+print(sum)
+Output:
+
+0b10010
